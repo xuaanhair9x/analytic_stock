@@ -1,0 +1,63 @@
+php artisan crawler:data:stock VCB KQKD 2017 2020
+php artisan crawler:data:stock VCB KQKD 2013 2016
+php artisan crawler:data:stock VCB KQKD 2009 2012
+php artisan crawler:data:stock HDB KQKD 2017 2020
+php artisan crawler:data:stock HDB KQKD 2013 2016
+php artisan crawler:data:stock HDB KQKD 2009 2012
+php artisan crawler:data:stock MBB KQKD 2017 2020
+php artisan crawler:data:stock MBB KQKD 2013 2016
+php artisan crawler:data:stock MBB KQKD 2009 2012
+
+php artisan crawler:data:stock VCB CDKT 2017 2020
+php artisan crawler:data:stock VCB CDKT 2013 2016
+php artisan crawler:data:stock VCB CDKT 2009 2012
+php artisan crawler:data:stock HDB CDKT 2017 2020
+php artisan crawler:data:stock HDB CDKT 2013 2016
+php artisan crawler:data:stock HDB CDKT 2009 2012
+php artisan crawler:data:stock MBB CDKT 2017 2020
+php artisan crawler:data:stock MBB CDKT 2013 2016
+php artisan crawler:data:stock MBB CDKT 2009 2012
+
+php artisan crawler:data:stock VCB LC 2017 2020
+php artisan crawler:data:stock VCB LC 2013 2016
+php artisan crawler:data:stock VCB LC 2009 2012
+php artisan crawler:data:stock HDB LC 2017 2020
+php artisan crawler:data:stock HDB LC 2013 2016
+php artisan crawler:data:stock HDB LC 2009 2012
+php artisan crawler:data:stock MBB LC 2017 2020
+php artisan crawler:data:stock MBB LC 2013 2016
+php artisan crawler:data:stock MBB LC 2009 2012
+
+
+php artisan crawler:data:debit MBB 2020
+php artisan crawler:data:debit MBB 2016
+
+SET SQL_SAFE_UPDATES = 0;
+UPDATE bank_info_debit_year
+SET report_norm_id = 5700
+WHERE  debit_id = 1  ;
+
+SET SQL_SAFE_UPDATES = 0;
+UPDATE bank_info_debit_year
+SET report_norm_id = 5701
+WHERE  debit_id = 2  ;
+
+SET SQL_SAFE_UPDATES = 0;
+UPDATE bank_info_debit_year
+SET report_norm_id = 5702
+WHERE  debit_id = 3  ;
+
+SET SQL_SAFE_UPDATES = 0;
+UPDATE bank_info_debit_year
+SET report_norm_id = 5703
+WHERE  debit_id = 4  ;
+
+SET SQL_SAFE_UPDATES = 0;
+UPDATE bank_info_debit_year
+SET report_norm_id = 5704
+WHERE  debit_id = 5;
+
+SET SQL_SAFE_UPDATES = 0;
+UPDATE bank_info_debit_year
+SET report_norm_id = 5705
+WHERE  debit_id = 6;

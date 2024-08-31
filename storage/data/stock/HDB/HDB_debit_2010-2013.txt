@@ -1,0 +1,1 @@
+{"years": ["2010", "2011", "2012", "2013"], "info": [{"title": "Nợ đủ tiêu chuẩn", "values": [0, 0, 0, 40774537882]}, {"title": "Nợ cần chú ý", "values": [0, 0, 0, 1639224306]}, {"title": "Nợ dưới tiêu chuẩn", "values": [0, 0, 0, 402052490]}, {"title": "Nợ nghi ngờ", "values": [0, 0, 0, 221573564]}, {"title": "Nợ có khả năng mất vốn", "values": [0, 0, 0, 929460357]}]}
